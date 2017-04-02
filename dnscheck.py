@@ -13,6 +13,11 @@ DNS_LIB = [
         'nameservers': ['168.95.1.1', '168.95.192.1', '168.95.192.2']
     },
     {
+        'name': 'SeedNet',
+        'country': 'TW',
+        'nameservers': ['139.175.55.244', '139.175.252.16', '139.175.150.20', '139.175.10.20']
+    },
+    {
         'name': 'IIJ',
         'country': 'JP',
         'nameservers': ['210.130.0.1', '210.130.1.1']
@@ -21,6 +26,16 @@ DNS_LIB = [
         'name': 'WTT',
         'country': 'HK',
         'nameservers': ['202.130.97.65', '202.130.97.66']
+    },
+    {
+        'name': 'HKBN',
+        'country': 'HK',
+        'nameservers': ['203.80.96.10', '203.80.96.9']
+    },
+    {
+        'name': 'HGC',
+        'country': 'HK',
+        'nameservers': ['202.45.84.58', '202.45.84.59']
     },
     {
         'name': 'SK',
