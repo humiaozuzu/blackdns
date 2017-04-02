@@ -84,7 +84,7 @@ def get_dns_with_resolver(nameserver, names):
 
 
 def fping(domains, times=5):
-    cmd = '/usr/local/bin/fping -q -C %s -B1 -r1 -i10 %s | true' % (times, ' '.join(domains))
+    cmd = '/usr/bin/fping -q -C %s -B1 -r1 -i10 %s | true' % (times, ' '.join(domains))
     output = subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
     return output
 
